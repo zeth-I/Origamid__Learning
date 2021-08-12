@@ -1,0 +1,24 @@
+.menu{
+    grid-column: 3 / 5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--first-color);
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: .8rem;
+        a{
+            display: block;
+            padding: .8rem;
+            margin-right: 10px;
+            color: var(--text-color);
+
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: bold;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+        }
+    }
+}
